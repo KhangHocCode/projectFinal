@@ -43,7 +43,7 @@
         <div class="after"></div>
       </div>
       <div class="assignment-section">
-        <h2>Nhập số đội, và số thành viên cho mỗi đội.</h2>
+        <h2>Nhập số đội bạn mong muốn.</h2>
         <label for="numTeams">Nhập số đội:</label>
         <input
           type="number"
@@ -337,7 +337,7 @@
         .getElementById("randomizeTeamsButton")
         .addEventListener("click", function () {
           const numTeams = parseInt(document.getElementById("numTeams").value);
-          if (numTeams >= 20 ) {
+          if (numTeams >= 100 ) {
             alert("Bạn đã nhập quá giới hạn cho phép! Vui lòng nhập lại!");
             return;
           }
